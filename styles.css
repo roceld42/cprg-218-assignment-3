@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 body {
-    background-image: url(photos/hotel2.jpg);
+    background-image: url(./photos/hotel2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
@@ -166,5 +166,5 @@ footer {
 /* media queries */
 
 @media (max-width:767px) {
-    
+
 }
