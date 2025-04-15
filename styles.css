@@ -1,0 +1,67 @@
+body {
+    background-image: url(photos/hotel2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.headercontainer {
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(212, 24, 55);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    display: block;
+}
+
+nav a:hover {
+    background-color: rgb(179, 52, 52);
+}
+
+.page {
+    background-color: rgb(247, 244, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em;
+    width: 70%;
+}
+
+img, video {
+    width: 90%;
+    max-width: 90%;
+    height: auto;
+}
+
+.videocontainer video {
+    width: 90%;
+}
+
+footer {
+    background-color: rgb(212, 24, 55);
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
