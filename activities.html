@@ -9,7 +9,18 @@
 </head>
 <body>
     <header class="headercontainer">
-        <img src="photos/logo copy.svg" alt="logo of a reddish-orange flower with the name Shangri-La next to it.">
+        <div class="top">
+            <img src="photos/logo copy.svg" alt="logo of a reddish-orange flower with the name Shangri-La next to it.">
+            <div id="weather">
+                <div id="weathercontents">
+                    <h1 id="cityname"></h1>
+                    <p>Current Weather</p>
+                    <img id="weathericon" alt="weather icon">
+                    <div id="temp"></div>
+                    <div id="weatherdescription"></div>
+                </div>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -22,12 +33,17 @@
         </nav>
     </header>
     <div class="page">
-        <h1>Activities & Excursions</h1>
+        <h2>Activities & Excursions</h2>
         <p>Discover the wonders of our tropical paradise and create unforgettable memories with our curated selection of activities and excursions.</p>
+        <figure class="videocontainer">
+            <video controls>
+                <source src="video/8045159-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+        </figure>
         <div id="activities">
-            <h2>On-Site Activities</h2>
+            <h3>On-Site Activities</h3>
             <figure>
-                <h3>Relaxation & Rejuvenation:</h3>
+                <h4>Relaxation & Rejuvenation:</h4>
                 <ul>
                     <li><strong>Sunrise Yoga on the Beach:</strong> Start your day with a peaceful yoga session as the sun rises over the ocean. (Daily, complimentary)</li>
                     <li><strong>Guided Meditation Sessions:</strong> Find inner peace and tranquillity with our guided meditation sessions in the serene garden. (Daily, complimentary)</li>
@@ -36,7 +52,7 @@
                 </ul>
             </figure>
             <figure>
-                <h3>Adventure & Recreation:</h3>
+                <h4>Adventure & Recreation:</h4>
                 <ul>
                     <li><strong>Water Sports:</strong> Explore the crystal-clear waters with our range of water sports activities.
                     <ul>
@@ -51,7 +67,7 @@
             </figure>
         </div>
         <div id="excursions">
-            <h4>Local Excursions</h4>
+            <h5>Local Excursions</h5>
             <figure>
                 <h6>Explore the Natural Beauty:</h6>
                 <ul>
@@ -62,7 +78,7 @@
                 </ul>
             </figure>
             <figure>
-                <h5>Cultural Experiences:</h5>
+                <h6>Cultural Experiences:</h6>
                 <ul>
                     <li><strong>Local Village Visit:</strong> Experience the authentic culture and traditions of the local village. (Half-day excursion, fees apply)</li>
                     <li><strong>Traditional Cooking Class:</strong> Learn to prepare local delicacies with a hands-on cooking class. (Half-day excursion, fees apply)</li>
@@ -70,7 +86,7 @@
                 </ul>
             </figure>
             <figure>
-                <h5>Adventure & Wildlife:</h5>
+                <h6>Adventure & Wildlife:</h6>
                 <ul>
                     <li><strong>Diving Excursions:</strong> Explore the underwater world with our certified diving instructors. (Various dive sites and packages available, fees apply)</li>
                     <li><strong>Wildlife Sanctuary Visit:</strong> Encounter exotic wildlife at a nearby sanctuary. (Half-day excursion, fees apply)</li>

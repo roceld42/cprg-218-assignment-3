@@ -9,7 +9,18 @@
 </head>
 <body>
     <header class="headercontainer">
-        <img src="photos/logo copy.svg" alt="logo of a reddish-orange flower with the name Shangri-La next to it.">
+        <div class="top">
+            <img src="photos/logo copy.svg" alt="logo of a reddish-orange flower with the name Shangri-La next to it.">
+            <div id="weather">
+                <div id="weathercontents">
+                    <h1 id="cityname"></h1>
+                    <p>Current Weather</p>
+                    <img id="weathericon" alt="weather icon">
+                    <div id="temp"></div>
+                    <div id="weatherdescription"></div>
+                </div>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,13 +35,13 @@
     <div class="page">
         <figure class="videocontainer">
             <video controls>
-                <source src="video/3998263-uhd_2732_1440_25fps.mp4">
+                <source src="video/3998263-uhd_2732_1440_25fps.mp4" type="video/mp4">
             </video>
         </figure>
-        <h1>The Serenity Sanctuary - Spa Services & Price List</h1>
+        <h2>The Serenity Sanctuary - Spa Services & Price List</h2>
         <div id="services">
             <figure>
-                <h2>Massages</h2>
+                <h3>Massages</h3>
                 <ul>
                     <li><strong>Shangri La Signature Massage (90 minutes):</strong>  $250
                     <ul>
@@ -59,7 +70,8 @@
                 </ul>
             </figure>
             <figure>
-                <h2>Body Treatments</h2>
+                <h3>Body Treatments</h3>
+                <img src="photos/pexels-polina-tankilevitch-3736520.jpg" alt="white shelf and counter with collections of cosmetic products">
                 <ul>
                     <li><strong>Sea Salt Body Scrub (45 minutes):</strong> $150
                     <ul>
@@ -76,7 +88,7 @@
                 </ul>
             </figure>
             <figure>
-                <h2>Manicures & Pedicures</h2>
+                <h3>Manicures & Pedicures</h3>
                 <ul>
                     <li><strong>Shangri La Deluxe Manicure (60 minutes):</strong> $90</li>
                     <li><strong>Shangri La Deluxe Pedicure (75 minutes):</strong> $110</li>
@@ -85,7 +97,7 @@
                 </ul>
             </figure>
             <figure>
-                <h2>Enhancements (Add-ons)</h2>
+                <h3>Enhancements (Add-ons)</h3>
                 <ul>
                     <li><strong>Scalp Massage (15 minutes):</strong> $40</li>
                     <li><strong>Eye Treatment (15 minutes):</strong> $35</li>
@@ -93,14 +105,14 @@
                 </ul>
             </figure>
             <figure>
-                <h2>Wellness Programs</h2>
+                <h3>Wellness Programs</h3>
                 <ul>
                     <li><strong>Yoga Session (60 minutes):</strong> $50 (Group), $120 (Private)</li>
                     <li><strong>Meditation Session (30 minutes):</strong> $40 (Group), $100 (Private)</li>
                 </ul>
             </figure>
             <figure>
-                <h2>Important Notes</h2>
+                <h3>Important Notes</h3>
                 <ul>
                     <li>Prices are subject to change without notice.</li>
                     <li>Reservations are highly recommended.</li>

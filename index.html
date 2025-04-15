@@ -9,8 +9,18 @@
 </head>
 <body>
     <header class="headercontainer">
-        <img src="photos/logo copy.svg" alt="logo of a reddish-orange flower with the name Shangri-La next to it.">
-        <div id="weather">Current Weather</div>
+        <div class="top">
+            <img src="photos/logo copy.svg" alt="logo of a reddish-orange flower with the name Shangri-La next to it.">
+            <div id="weather">
+                <div id="weathercontents">
+                    <h1 id="cityname"></h1>
+                    <p>Current Weather</p>
+                    <img id="weathericon" alt="weather icon">
+                    <div id="temp"></div>
+                    <div id="weatherdescription"></div>
+                </div>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,8 +34,8 @@
     </header>
     <div class="page">
         <figure class="videocontainer">
-            <figcaption>    
-                <h1>Escape to Paradise</h1>
+            <figcaption id="intro">    
+                <h2>Escape to Paradise</h2>
                 <p>Indulge in luxury and breathtaking views at Shangri La Beach Resort.</p>
             </figcaption>
             <video controls>
@@ -33,59 +43,59 @@
             </video>
         </figure>
         <figure>
-            <h2>Experience Unforgettable Moments</h2>
+            <h3>Experience Unforgettable Moments</h3>
             <figcaption>
-                <h3>Private Beach Access</h3>
+                <h4>Private Beach Access</h4>
                 <p>Step onto our pristine, white-sand beach.</p>
             </figcaption>
             <img src="photos/white-sand-beach.jpg" alt="white sand beach with rocks and palm trees by the shore, under a blue sky.">
         </figure>
         <figure>
             <figcaption>
-                <h3>Infinity Pool</h3>
+                <h4>Infinity Pool</h4>
                 <p>Relax by our stunning oceanfront infinity pool.</p>
             </figcaption>
             <img src="photos/sunset.jpg" alt="photo of an infinity pool during sunset with lounge chairs on the right and hotel in the back.">
         </figure>
         <figure>
             <figcaption>
-                <h3>World Class Spa</h3>
+                <h4>World Class Spa</h4>
                 <p>Rejuvenate your mind and body at our spa.</p>
             </figcaption>
             <img src="photos/pexels-olly-3757657.jpg" alt="picture of woman lying down with her face being massaged.">
         </figure>
         <figure>
             <figcaption>
-                <h3>Exquisite Dining</h3>
+                <h4>Exquisite Dining</h4>
                 <p>Savor culinary delights at our restaurants.</p>
             </figcaption>
             <img src="photos/pexels-valeriya-31235402.jpg" alt="plate of seafood pasta with shrimp, mussels and tiny octopus.">
         </figure>
         <div>
-            <h4>Our Luxurious Accommodations</h4>
             <figure>
+                <h5>Our Luxurious Accommodations</h5>
                 <img src="photos/bedroom-door-entrance-271639.jpg" alt="photo of a hand opening a door to a suite but the door is clear and the room which consists of a bed, window, and bedside table are blurry.">
                 <figcaption>
                     <h6>Ocean View Deluxe Room</h6>
                     <p>Enjoy stunning ocean views from your private balcony.</p>
-                    <button><a href="guestrooms.html">[View Details]</a></button>
+                    <button id="more"><a href="guestrooms.html#oceanview">View Details</a></button>
                     <h6>Beachfront Suite</h6>
                      <p>Step directly onto the sand from your spacious suite.</p>
-                     <button><a href="guestrooms.html">[View Details]</a></button>
+                     <button id="more"><a href="guestrooms.html#beachfront">View Details</a></button>
                     <h6>Garden View Family Room</h6>
                      <p>Perfect for families, with ample space and garden views.</p>
-                     <button><a href="guestrooms.html">[View Details]</a></button>
+                     <button id="more"><a href="guestrooms.html#gardenview">View Details</a></button>
                 </figcaption>
             </figure>
-            <div class="reviews">
-                <p>"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were breathtaking."</p>
-                <div class="names">- Sarah M.</div>
-            </div>
-            <div class="reviews">
-                <p>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible."</p>
-                <div class="names">- John B.</div>
-                <button id="more"><a href="testimonials.html">[More Testimonials]</a></button>
-            </div>
+                <div class="reviews">
+                    <blockquote>"Our stay at Shangri La was absolutely perfect! The service was impeccable, and the views were breathtaking."</blockquote>
+                    <div class="names">- Sarah M.</div>
+                </div>
+                <div class="reviews">
+                    <blockquote>"The beachfront suite was amazing! Waking up to the sound of the waves and stepping right onto the sand was incredible."</blockquote>
+                    <div class="names">- John B.</div>
+                    <button id="more"><a href="testimonials.html">More Testimonials</a></button>
+                </div>
         </div>
     </div>
     <footer>
