@@ -89,6 +89,15 @@ h6 {
     font-size: 1em;
 }
 
+#services {
+    margin: 1em;
+    padding: 1em;
+}
+
+#activities {
+    margin: 1em;
+}
+
 .page {
     background-color: rgb(255, 255, 254);
     display: flex;
@@ -96,12 +105,12 @@ h6 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding: 1em;
+    padding: 1.5em;
     width: 70%;
     max-width: 70%;
 }
 
-strong, ul {
+.page ul {
     color: rgb(110, 93, 96);
 }
 
@@ -109,8 +118,8 @@ strong {
     font-weight: 600;
 }
 
-img, video {
-    width: 70%;
+img {
+    width: 100%;
     max-width: 70%;
     height: auto;
     display: block;
@@ -118,11 +127,6 @@ img, video {
 }
 
 figure img {
-    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
-}
-
-.videocontainer video {
-    width: 90%;
     box-shadow: 0 0 10px rgba(0,0,0, 0.3);
 }
 
@@ -147,6 +151,7 @@ button {
     background-color: rgb(212, 24, 55);
     color: white;
     padding: 1em;
+    border-radius: 5px;
 }
 
 #more:hover {
@@ -197,8 +202,4 @@ footer {
     #weathercontents {
         width: 100%;
     }
-}
-
-@media (max-width:999px) and (min-width:768px) {
-    
 }

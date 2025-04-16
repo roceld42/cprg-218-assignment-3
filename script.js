@@ -1,8 +1,5 @@
 // weather api
 let apikey = 'ab12b65569969fd5fb077dd1037b5415';
-let city = 'Cancun';
-let lat = 21.17429
-let lon = -86.84656
 
 getWeather()
 
