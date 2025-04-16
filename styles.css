@@ -38,9 +38,11 @@ body {
 .top {
     display: flex;
     width: 50%;
-    justify-content: space-between;
+    padding: 1em;
+    justify-content: center;
     align-items: center;
     gap: 40px;
+    max-width: 50%;
 }
 
 nav {
@@ -96,6 +98,7 @@ h6 {
     margin: 0 auto;
     padding: 1em;
     width: 70%;
+    max-width: 70%;
 }
 
 strong, ul {
@@ -107,8 +110,8 @@ strong {
 }
 
 img, video {
-    width: 90%;
-    max-width: 90%;
+    width: 70%;
+    max-width: 70%;
     height: auto;
     display: block;
     margin: 1em auto;
@@ -166,5 +169,36 @@ footer {
 /* media queries */
 
 @media (max-width:767px) {
+    .top {
+        width: 100%;
+    }
+    nav {
+        background-color: transparent;
+        width: 100%;
+    }
 
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    nav a {
+        background-color: rgb(212, 24, 55);
+    }
+
+    nav li {
+        width: 90%;
+        text-align: center;
+    }
+
+    #weathercontents {
+        width: 100%;
+    }
+}
+
+@media (max-width:999px) and (min-width:768px) {
+    
 }
